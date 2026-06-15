@@ -25,3 +25,6 @@ output/validation_report.txt
 output/validation_summary.txt
 output/glm_comparison.csv
 output/glm_comparison_v2.csv
+output/figures/feature_histograms.png
+output/figures/glm_coef_plot.png
+output/figures/glm_table_sparkline.png
