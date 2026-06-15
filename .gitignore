@@ -17,3 +17,10 @@ texput.log
 # Editor artifacts
 *copy.tex
 .DS_Store
+
+# Generated output
+output/constraint_report.txt
+output/validation_report.txt
+output/validation_summary.txt
+output/glm_comparison.csv
+output/glm_comparison_v2.csv
