@@ -17,6 +17,7 @@ texput.log
 # Editor artifacts
 *copy.tex
 .DS_Store
+output/figures/*copy*.png
 
 # Generated output
 output/constraint_report.txt
