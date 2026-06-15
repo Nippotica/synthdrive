@@ -72,6 +72,6 @@ Telematics. *Risks* 9(4): 58. https://doi.org/10.3390/risks9040058
 ## Documentation
 
 - `docs/synthdrive_formal_v0.1.pdf` — Formal algebraic specification
-- `docs/synthdrive_techpaper.pdf` — SSRN companion paper
+- `docs/synthdrive_techpaper.pdf` — Technical paper
 - `docs/methodology_v01.md` — Model specification and parameter calibration
 - `docs/limitations.md` — Known limitations
