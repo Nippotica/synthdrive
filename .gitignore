@@ -28,3 +28,4 @@ output/glm_comparison_v2.csv
 output/figures/feature_histograms.png
 output/figures/glm_coef_plot.png
 output/figures/glm_table_sparkline.png
+output/figures/correlation_heatmap.png
