@@ -1,0 +1,79 @@
+============================================================
+SynthDrive v0.1 — Validation Report
+============================================================
+Policies:               10,000
+Total exposure:         7,731.4 policy-years
+Mean exposure:          0.773
+Zero-claim pct:         95.3%
+Frequency (ann.):       0.3642
+Mean severity:          18,081
+Median severity:        4,603
+95th pct severity:      83,091
+Mean pure premium:      1,388.13
+
+Constraints:            ALL PASSED
+
+Sanity checks:
+    OK    claim_frequency_range: OK — frequency = 0.3642
+    OK    zero_claim_pct_range: OK — zero-claim pct = 0.954
+    OK    no_negative_amounts: OK — no negative claim amounts
+    OK    pct_drive_mon_in_01: OK — pct_drive_mon in [0,1]
+    OK    pct_drive_tue_in_01: OK — pct_drive_tue in [0,1]
+    OK    pct_drive_wed_in_01: OK — pct_drive_wed in [0,1]
+    OK    pct_drive_thu_in_01: OK — pct_drive_thu in [0,1]
+    OK    pct_drive_fri_in_01: OK — pct_drive_fri in [0,1]
+    OK    severity_above_minimum: OK — all claimant amounts > 10
+    OK    mean_age_range: OK — mean age = 51.2
+
+Distribution comparison (synthetic vs reference):
+               variable  synth_mean  ref_mean  mean_diff_pct
+         accel_11_miles      1.0038    0.9292           8.03
+         accel_12_miles      0.4832    0.5251          -7.98
+         accel_14_miles      0.3066    0.3570         -14.12
+          accel_6_miles     46.1485   43.0971           7.08
+          accel_8_miles      4.9412    4.5325           9.02
+          accel_9_miles      1.9055    1.7536           8.67
+     annual_miles_drive   9172.0363 9124.1229           0.53
+      annual_pct_driven      0.5009    0.5023          -0.28
+          avg_days_week      5.5204    5.5331          -0.23
+         brake_11_miles      1.2170    1.3492          -9.80
+         brake_12_miles      0.4544    0.5899         -22.97
+         brake_14_miles      0.2172    0.3550         -38.82
+          brake_6_miles     80.4373   83.6525          -3.84
+          brake_8_miles      9.3127    9.5941          -2.93
+          brake_9_miles      3.0160    3.1025          -2.79
+                car_age      5.6925    5.6397           0.94
+           claim_amount    840.7696  137.6023         511.01
+            claim_count      0.2816    0.0449         526.61
+           credit_score    799.3414  800.8889          -0.19
+               duration    282.1964  314.2041         -10.19
+               exposure      0.7731    0.8600         -10.10
+            insured_age     51.1947   51.3790          -0.36
+ left_turn_intensity_08    951.4741  915.6763           3.91
+ left_turn_intensity_09    590.4551  718.0536         -17.77
+ left_turn_intensity_10    400.6452  551.5740         -27.36
+ left_turn_intensity_11    267.3216  487.3407         -45.15
+ left_turn_intensity_12    172.6537  447.7584         -61.44
+         pct_drive_2hrs      0.0472    0.0039        1099.65
+         pct_drive_3hrs      0.0342    0.0009        3835.84
+         pct_drive_4hrs      0.0346    0.0002       14202.09
+          pct_drive_fri      0.1565    0.1576          -0.74
+          pct_drive_mon      0.1447    0.1394           3.86
+      pct_drive_rush_am      0.2013    0.0978         105.77
+      pct_drive_rush_pm      0.2948    0.1376         114.28
+          pct_drive_sat      0.1328    0.1379          -3.68
+          pct_drive_sun      0.1178    0.1125           4.71
+          pct_drive_thu      0.1488    0.1530          -2.77
+          pct_drive_tue      0.1480    0.1513          -2.17
+          pct_drive_wed      0.1514    0.1483           2.07
+        pct_drive_wkday      0.7493    0.7495          -0.03
+        pct_drive_wkend      0.2507    0.2505           0.09
+right_turn_intensity_08   1991.3873  843.4618         136.10
+right_turn_intensity_09   1237.3443  565.0561         118.98
+right_turn_intensity_10    839.2306  326.6548         156.92
+right_turn_intensity_11    557.4962  246.7131         125.97
+right_turn_intensity_12    359.8679  198.7537          81.06
+              territory     50.9962   56.5314          -9.79
+     total_miles_driven   7154.7784 4833.5753          48.02
+        years_no_claims     28.6762   28.8400          -0.57
+============================================================

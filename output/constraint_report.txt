@@ -1,0 +1,46 @@
+Constraint Audit
+==================================================
+Passed: 41  |  Failed: 0  |  Total: 41
+
+PASSES:
+  pass  exposure > 0
+  pass  exposure <= 1
+  pass  duration > 0
+  pass  duration <= 366
+  pass  insured_age >= 16
+  pass  insured_age <= 90
+  pass  credit_score >= 400
+  pass  credit_score <= 900
+  pass  years_no_claims >= 0
+  pass  car_age >= -2
+  pass  car_age <= 20
+  pass  annual_miles_drive >= 500
+  pass  annual_miles_drive <= 60000
+  pass  annual_pct_driven in [0,1]
+  pass  total_miles_driven >= 0
+  pass  avg_days_week in [0,7]
+  pass  sum(pct_drive_dow) == 1
+  pass  wkday + wkend == 1
+  pass  accel_6_miles >= accel_8_miles
+  pass  accel_8_miles >= accel_9_miles
+  pass  accel_9_miles >= accel_11_miles
+  pass  accel_11_miles >= accel_12_miles
+  pass  accel_12_miles >= accel_14_miles
+  pass  brake_6_miles >= brake_8_miles
+  pass  brake_8_miles >= brake_9_miles
+  pass  brake_9_miles >= brake_11_miles
+  pass  brake_11_miles >= brake_12_miles
+  pass  brake_12_miles >= brake_14_miles
+  pass  left_turn_intensity_08 >= left_turn_intensity_09
+  pass  left_turn_intensity_09 >= left_turn_intensity_10
+  pass  left_turn_intensity_10 >= left_turn_intensity_11
+  pass  left_turn_intensity_11 >= left_turn_intensity_12
+  pass  right_turn_intensity_08 >= right_turn_intensity_09
+  pass  right_turn_intensity_09 >= right_turn_intensity_10
+  pass  right_turn_intensity_10 >= right_turn_intensity_11
+  pass  right_turn_intensity_11 >= right_turn_intensity_12
+  pass  claim_count >= 0
+  pass  claim_count is integer
+  pass  claim_amount >= 0
+  pass  claim_amount == 0 when claim_count == 0
+  pass  pure_premium >= 0
